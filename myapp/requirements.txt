@@ -6,9 +6,8 @@ python-dotenv==1.0.0    # Environment variable management
 boto3==1.34.0           # AWS SDK for Python
 botocore==1.34.0        # AWS core library
 
-# Deployment tool (from private GitLab)
-# Note: Requires GITLAB_TOKEN environment variable for installation
-lambda-deploy-tool @ git+https://oauth2:${GITLAB_TOKEN}@gitlab.com/luona-common-libraries/lambda-deploy-tool.git@main
+# Deployment tool
+lambda-deploy-tool @ git+https://github.com/riskand/lambda-deploy-tool.git
 
 # Add your application-specific dependencies here
 # Example: requests==2.31.0
