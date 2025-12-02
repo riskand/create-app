@@ -151,3 +151,5 @@ test-*.log
 # Generated apps (for testing)
 test-app-*/
 demo-*/
+
+.idea/
